@@ -1,0 +1,59 @@
+﻿"いる/行く/来る
+TKN / KNN","いらっしゃる: TKN -có/đi/đến
+VD: 社長はもういらっしゃいましたか Giám đốc đã đến rồi ạ?
+ おる/参る(oru/mairu): KNN
+VD: 私は今、事務所におります. Hiện tại tôi đang ở văn phòng."
+"言う
+TKN / KNN","おっしゃる: TKN - nói
+VD: 部長は何とおっしゃいましたか Trưởng phòng đã nói gì vậy ạ?
+申す/申し上げる(mōsu/mōshiageru): KNN -- nói
+VD: 私の名前は田中と申します Tên tôi là Tanaka.
+"
+"する 
+TKN / KNN","TKN なさる - làm
+VD:  お客様は何をなさいますか  Quý khách muốn dùng gì ạ?
+KNN いたす -- làm
+VD: 私がご案内いたします  Tôi xin phép hướng dẫn."
+"見る
+TKN / KNN","TKN ご覧になる (goranninaru) - xem
+VD: こちらの資料をご覧ください。 Xin mời ngài xem tài liệu này.
+拝見する (haiken suru) KNN -- xem
+VD: 資料を拝見いたしました  Tôi đã xem tài liệu rồi ạ."
+"知っている
+TKN / KNN","TKN ご存知です (gozonjii)-- biết
+VD: 田中様はご存知ですか  Ông/Bà Tanaka có biết không ạ?
+KNN 存じている/存じ上げる (zonjite iru/zonjiageru) -- biết
+VD: 先生のお名前は存じ上げております   Tôi biết tên của thầy/cô giáo ạ."
+"食べる/飲む
+TKN / KNN","TKN 召し上がる (meshiagaru) -- ăn/uống
+VD: 田中様はご存知ですか  Ông/Bà Tanaka có biết không ạ?
+KNN いただく -- ăn/uống
+VD: 昼食をいただきました   Tôi đã dùng bữa trưa."
+"聞く
+TKN / KNN","TKN お聞きになる (okiki ni naru) -- nghe/hỏi
+VD: 先生に何かお聞きになりましたか。 Bạn đã hỏi thầy/cô giáo điều gì chưa?
+KNN 伺う (ukagau) -- nghe/hỏi
+VD: 後ほど、詳しい状況を伺います。Lát nữa tôi sẽ hỏi thăm tình hình cụ thể."
+"会う 
+TKN / KNN","TKN お会いになる -- gặp
+VD: 明日、社長がお会いになります  Ngày mai, giám đốc sẽ gặp mặt.
+KNN  お会いする -- gặp
+VD: 明日、お客様にお会いいたします   Ngày mai tôi sẽ gặp khách hàng."
+"くれる 
+TKN / KNN","TKN くださる -- cho /tặng(mình)
+VD: 部長が資料をくださいました    Trưởng phòng đã cho tôi tài liệu.
+KNN いただく -- cho
+部長にアドバイスをいただきました      Tôi đã nhận được lời khuyên từ trưởng phòng."
+"〜ている
+TKN / KNN","TKN ていらっしゃる -- đang
+VD: お客様がお待ちになっていらっしゃいます    Quý khách đang đợi ạ.
+KNN  ておる -- đang
+VD:  ただ今、確認作業をしております   Hiện tại tôi đang tiến hành công việc kiểm tra."
+"お + động từ thể ます (bỏ ます) + になる
+お読みになる ","Tôn Kính Ngữ
+"
+"ご + danh từ + になる
+ご説明になる","Tôn Kính Ngữ
+"
+"お/ご + động từ thể ます (bỏ ます) + する/いたす
+ご説明する/ご説明いたす",Khiêm nhường ngữ
