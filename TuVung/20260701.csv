@@ -1,0 +1,53 @@
+﻿不明点,"ふめいてん - BẤT MINH ĐIỂM -Điểm không rõ ràng, Có điều chưa rõ
+不明点等があればコメントお願いします"
+除外,"じょがい - TRỪ NGOẠI -Sự ngoại trừ; ngoại trừ.
+Loại trừ. 社会から除外された (bị loại trừ khỏi xã hội)"
+経緯,たてぬき - KINH VĨ - Nguồn cơn (đầu đuôi sự việc)
+アンダースコア,Underscore - dấu gạch dưới _
+ドット,dot- Dấu chấm hết câu. Ví dụ .com
+稼働,"かどう - GIÁ ĐỘNG - Hoạt động.
+Ví dụ: 稼働時: thời gian hoạt động"
+際,"TẾ -  際(きわ)：rìa, ven 
+際(さい): ~の時(とき) khi"
+適宜,"てきぎ - THÍCH NGHI - phù hợp, tùy chỉnh...
+適宜応対する: điều chỉnh 1 cách phù hợp/ Ứng phó tùy theo hoàn cảnh"
+仕様,しよう - SĨ DẠNG - Đặc điểm kĩ thuật; thông số - spec
+右端,うたん - HỮU ĐOAN - Đầu bên phải; cạnh bên phải
+非常駐,ひじょうちゅう - PHI THƯỜNG TRÚ - Tạm trú
+把握,"はあく - BẢ ÁC - Sự lĩnh hội; sự nắm vững - hiểu rõ, cũng giống 理解"
+汎用,"はんよう - PHIẾM DỤNG -Đa dụng, nhiều mục đích
+汎用： đa dụng (đa mục đích)
+専用： chuyên dụng (cho 1 mục đích, 1 đối tượng nhất định)"
+課題,"かだい - KHÓA ĐỀ - Chủ đề; đề tài; nhiệm vụ; thách thức
+課題に取り組む
+Giải quyết vấn đề"
+復活,ふっかつ - PHỤC HOẠT - sự phục hồi
+配置,"はいち - PHỐI TRÍ - Xếp, sắp xếp, sắp đặt, bố trí"
+エクセル,Excel
+提案,"ていあん - ĐỀ ÁN - Đề nghị, đề xuất, gợi ý."
+迷惑,"めいわく - MÊ HOẶC- Sự phiền hà; sự quấy rầy; sự làm phiền
+ご迷惑おかけしますがもう少々お待ちください。"
+パイプライン,pipeline
+並行,"へいこう - TỊNH HÀNH - Song hành; song song
+作業はそのまま行っていただいて構いませんがパイプラインの更新を並行して行っています
+Bạn cứ tiếp tục thao tác bình thường, bên tôi đang thực hiện việc cập nhật pipeline song song.
+作業（さぎょう）: công việc, thao tác
+そのまま: giữ nguyên như hiện tại
+行っていただいて構いません
+→ anh/chị cứ làm ... cũng không sao
+→ có thể tiếp tục thực hiện ...
+パイプライン: pipeline
+更新（こうしん）: cập nhật
+並行して（へいこうして）: song song, đồng thời
+行っています: đang thực hiện"
+リベース,Rebase - đưa các commit của branch hiện tại lên trên commit mới nhất của branch khác.
+片付ける,"かたづける - PHIẾN PHÓ - Giải quyết ( vấn đề), dọn dẹp ( bàn,...)
+STGのバッチリリース（nonres-misc-batch-applicationとnonres-service-(a~x)-batch-application）について、
+service-applicationと同様に、以下のような手順ですか？
+Step 1: app の develop ブランチに変更を入れる
+Step 2: app の develop → staging PR を作成・マージ
+Step 3: manifest の develop PR をマージ・片付ける
+Step 4: manifest の staging PR をマージ"
+認識,"にんしき - NHẬN THỨC - Sự nhận thức
+それでは、VN側はソースだけをリリースすればよい認識でよろしいでしょうか。
+Như vậy, tôi hiểu rằng phía VN chỉ cần release source thôi là được, đúng không ạ?"
