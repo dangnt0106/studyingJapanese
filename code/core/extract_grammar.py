@@ -17,11 +17,12 @@ except ImportError:
 
 class GrammarExtractor:
     def __init__(self):
-        self.script_dir = Path(__file__).parent
-        self.input_dir = self.script_dir / "input"
-        self.output_dir = self.script_dir / "output"
-        self.logs_dir = self.script_dir / "logs"
-        self.template_dir = self.script_dir / "template"
+        self.script_dir = Path(__file__).parent  # This is the 'core' folder
+        self.code_dir = self.script_dir.parent    # This is the 'code' folder
+        self.input_dir = self.code_dir / "input"
+        self.output_dir = self.code_dir / "output"
+        self.logs_dir = self.code_dir / "logs"
+        self.template_dir = self.code_dir / "template"
 
         self.logs_dir.mkdir(exist_ok=True)
 

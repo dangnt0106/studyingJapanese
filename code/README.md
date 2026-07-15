@@ -14,7 +14,6 @@ A reusable batch-based tool to extract grammar content from PDF files and export
 ```
 code/
 ├── cmd.bat                          # Entry point (double-click to run)
-├── extract_grammar.py               # Main extraction script
 ├── input/                           # Place PDF files here
 │   └── *.pdf
 ├── template/                        # Template reference files
@@ -22,8 +21,12 @@ code/
 │   └── N2-Junbi-Nguphap-Bai-1.pdf  # Reference PDF
 ├── output/                          # Generated CSV files
 │   └── *.csv
-└── logs/                            # Execution logs
-    └── run_YYYYMMDD.log            # Daily log file
+├── logs/                            # Execution logs
+│   └── run_YYYYMMDD.log            # Daily log file
+└── core/                            # Source code
+    ├── extract_grammar.py           # Main extraction script
+    ├── pdf_grammar_extraction_requirements.md  # Requirements doc
+    └── README.md                    # This file
 ```
 
 ## Features
@@ -48,7 +51,7 @@ code/
 ### Command Line
 ```bash
 cd code
-python extract_grammar.py
+python core/extract_grammar.py
 ```
 
 ## Output Format

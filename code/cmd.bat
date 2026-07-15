@@ -34,8 +34,8 @@ if errorlevel 1 (
 REM Run the extraction script
 echo Starting extraction...
 echo.
-cd /d "%~dp0code"
-python extract_grammar.py
+cd /d "%~dp0"
+python core\extract_grammar.py
 set exit_code=%errorlevel%
 
 echo.
