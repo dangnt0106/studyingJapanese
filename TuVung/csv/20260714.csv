@@ -1,0 +1,64 @@
+﻿"
+契約割販",けいやくかっぱん ( Khế Ước Cát Phiến) Hợp đồng trả góp
+読み込み,"よみこみ - ĐỘC NHẬP - Load / đọc, tải
+読み込み中: loading"
+過程,"かてい - QUÁ TRÌNH- Quá trình; giai đoạn
+Phân biệt giữa 過程　経過
+過程 : Quá trình, là một bước trong một chuỗi những thay đổi. 生産過程 : quá trình sinh sản
+経過 : Tiến trình, ko chỉ là một bước đơn thuần, nó là cả một loạt những thay đổi dần dần."
+浄化,"じょうか - TỊNH HÓA- Làm sạch, thanh tẩy
+浄化データ = dữ liệu đã xóa/che thông tin nhạy cảm (PAN, thẻ, PII...)"
+為,"ため - VI - Bởi vì; mục đích là; Để
+本会員顧客をユニークにする為のID
+ID dùng để phân biệt duy nhất một khách hàng hội viên chính.
+"
+売上受入,"うりあげ うけいれ - MẠI THƯỢNG THỤ NHẬP-nhận doanh thu
+=> 売上受入 = quá trình tiếp nhận dữ liệu giao dịch bán hàng vào hệ thống.  "
+払戻し,"はらいもどし- PHẤT LỆ - hoàn tiền, hoàn trả, refund."
+誤打,ごだ - NGỘ ĐẢ - nhập sai thao tác / nhập nhầm dữ liệu
+精算,"せいさん - TINH TOÁN- Đối soát và thanh quyết toán cuối cùng
+精算先加盟店番号: Mã định danh của merchant nhận tiền thanh quyết toán."
+精算先加盟店番号,"せいさんさき かめいてん ばんごう -TINH TOÁN TIÊN GIA MINH ĐIẾM PHIÊN HÀO - Mã số merchant nhận thanh quyết toán
+加盟店  - Merchant "
+示す,しめす - KÌ- Biểu hiện ra; chỉ ra; cho thấy/express 
+優待,ゆうたい - ƯU ĐÃI- Ưu đãi.
+累積,"るいせき - LUY TÍCH- Tích lũy, cộng dồn, lũy kế
+ポイントを累積する期間の月数を設定する。
+→ Thiết lập số tháng của kỳ tích lũy điểm"
+締日,しめび - Đế Nhật - ngày chốt
+累計,"るいけい - LUY KẾ- Lũy kế; tích luỹ
+累計ポイント điểm tích luỹ"
+マイナス,"Minus (-), âm, giảm trừ, số âm
+当期度交換可能ポイントがマイナスの場合
+→ Trường hợp điểm có thể đổi trong kỳ hiện tại bị âm."
+相殺,"そうさつ - TƯƠNG SÁT- Bù trừ, cấn trừ, offset
+相殺処理 (xử lý bù trừ)"
+債権,"さいけん - TRÁI QUYỀN- Khoản phải thu, quyền đòi nợ, credit receivable
+カード会社 → 債権者 (chủ nợ)
+会員顧客 → 債務者 (người phải trả nợ)"
+採番,"さいばん - THẢI PHIÊN- Đánh số, cấp số, gán số định danh tự động
+ポイント種別IDで採番
+→ Sinh số dựa trên Point Type ID"
+グレード," Grade / Hạng / Cấp bậc
+グレード付与有無フラグ
+→ Cờ xác định có áp dụng cơ chế hạng thành viên hay không."
+引換,"ひきかえ - DẪN HOÁN- Đổi lấy, quy đổi, đổi thưởng (redeem/exchange)
+ポイント引換商品管理
+→ Quản lý sản phẩm đổi thưởng."
+提携,"ていけい - ĐỀ HUỀ- liên kết, hợp tác
+提携ATM: máy rút tiền có liên kết (rút được tiền ngân hàng không cùng hệ thống)"
+繰越,"くりこし - SÀO VIỆT-Chuyển sang kỳ sau, carry forward, carry over
+前月繰越金
+Tiền từ tháng trước chuyển sang"
+切替,"きりかえ - THIẾT THẾ- Chuyển đổi, thay đổi, switch"
+階層,"かいそう - GIAI TẰNG- Giai tầng; tầng lớp,hierarchy (engineer field), layer"
+細分,"さいぶん - TẾ PHÂN- Phân nhỏ, chia nhỏ, phân chia chi tiết hơn
+顧客区分を細分する
+→ Phân chia chi tiết hơn các nhóm khách hàng."
+導出,"どうしゅつ - ĐẠO XUẤT- Suy ra, tính toán để tạo ra giá trị, derive
+CASE
+ WHEN ...
+ THEN ...
+ ELSE ...
+END
+→ Logic này gọi là 導出ロジック."
