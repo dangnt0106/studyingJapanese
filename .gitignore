@@ -3,8 +3,12 @@ Mimi_Kara_Oboeru_N3-Goi.pdf
 ĐỀ JLPT N4 CÁC NĂM.7z
 
 # PDF Grammar Extraction Tool - Generated files
-code/output/*.csv
+code/output/bk/*.csv
 code/logs/run_*.log
+code/input/bk/*.pdf
+code/output/
+code/input/
+
 
 # Python
 __pycache__/
