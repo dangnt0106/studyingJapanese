@@ -12,6 +12,10 @@ Folder structure is set up but Python script and batch file don't exist yet     
  Expected Outcome:
  - Working extraction pipeline that processes all PDFs dynamically
  - CSV outputs following the template format (2 columns with UTF-8-sig encoding)
+ - PDFs with a valid numbered TOC use that TOC as the source of truth for grammar segmentation and count
+ - PDFs without a usable TOC can still be processed from numbered grammar headings grouped by `Bài ...` sections
+ - Output grammar terms follow the template style (remove leading wave-dash markers and OCR spacing noise in the term)
+ - Output explanations exclude course-branding metadata and standalone practice-section noise
  - Comprehensive logging for debugging and monitoring                                                                                                                     ↓
 
  ---                                                                                                                                                                      ↓
@@ -28,9 +32,13 @@ Folder structure is set up but Python script and batch file don't exist yet     
    - Read all .pdf files from code/input/ folder dynamically                                                                                                              ↓
    - Extract text while preserving structure and whitespace patterns
  2. Grammar Extraction Logic:
-   - Identify grammar terms: typically on separate lines, followed by whitespace                                                                                          ↓
+  - Identify grammar terms from a valid numbered TOC block when one exists, or from numbered grammar headings inside each lesson section (`Bài ...`) when no TOC is usable  ↓
    - Extract explanation content following the grammar term
    - Handle multi-line explanations within quoted CSV cells
+  - Skip standalone `練習` sections and stop the previous grammar item when a new `Bài ...` section begins
+  - Skip files when a valid TOC exists but extracted body item count mismatches TOC count
+  - Remove lesson-branding metadata such as `Khoá học Online N2 Junbi – Ngữ pháp` from explanations
+  - Normalize grammar terms to template style without broadly rewriting explanation text
    - Preserve Japanese and Vietnamese text encoding                                                                                                                       ↓
  3. CSV Generation:
    - Output format: 2 columns (Grammar term | Explanation)
@@ -46,6 +54,7 @@ Folder structure is set up but Python script and batch file don't exist yet     
  5. Error Handling:
    - Gracefully handle PDFs that can't be read                                                                                                                            ↓
    - Log errors with context for debugging
+  - Log warning and skip CSV generation when a valid TOC exists but parsed item count cannot be reconciled
    - Don't stop entire process if one PDF fails                                                                                                                           ↓
 
  Dependencies:                                                                                                                                                            ↓
