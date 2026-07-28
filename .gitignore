@@ -8,7 +8,14 @@ code/logs/run_*.log
 code/input/bk/*.pdf
 code/output/
 code/input/
+LuyenDe_N4/*.7z
 
+# Audio files
+*.mp3
+*.wav
+*.ogg
+*.flac
+code/audio/
 
 # Python
 __pycache__/

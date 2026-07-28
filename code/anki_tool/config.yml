@@ -1,0 +1,78 @@
+# Anki Integration Tool Configuration
+
+# AnkiConnect API settings
+anki:
+  # AnkiConnect server URL and port
+  url: "http://localhost"
+  port: 8765
+  # Connection timeout in seconds
+  timeout: 10
+  # Test connection on startup
+  test_connection: true
+
+# CSV and data directories
+paths:
+  # Directory containing grammar CSV files
+  grammar_csv_dir: "../output"
+  # Directory containing audio files organized by CSV name
+  # Example: audio/N2-Junbi-Nguphap-Bai-1/ contains audio files
+  audio_base_dir: "../audio"
+  # Output directory for intermediate CSV files
+  output_dir: "./output"
+  # Logs directory
+  logs_dir: "./logs"
+
+# Audio matching settings
+audio:
+  # Fuzzy matching threshold (0-100, higher = stricter match)
+  # Set to 80 to require 80% similarity between pattern and audio filename
+  fuzzy_threshold: 80
+  # Supported audio formats
+  supported_formats:
+    - mp3
+    - wav
+    - ogg
+  # Log unmatched audio files
+  log_unmatched: true
+
+# Deck naming template
+deck:
+  # Deck hierarchy template
+  # Available variables: {lesson_name}, {level}, {category}
+  # Example: "Japanese::NguPhap::{lesson_name}"
+  template: "Japanese::NguPhap::{lesson_name}"
+  # Extract lesson name from CSV filename
+  # Example: N2-Junbi-Nguphap-Bai-1.csv -> NguPhap_N2_Bai-1
+  name_extraction_pattern: "N(?P<level>\\d+)-.*?(?P<lesson>Bai-\\d+)"
+
+# Card settings
+card:
+  # Note type to use in Anki
+  note_type: "Basic"
+  # Field mapping for Basic note type
+  # Front: Japanese pattern, Back: meaning + explanation + audio
+  fields:
+    front: "Front"
+    back: "Back"
+  # Duplicate handling strategy: skip, replace, or ask
+  duplicate_strategy: "skip"
+
+# Logging
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  # Format: simple or detailed
+  format: "detailed"
+  # Log to file
+  file_logging: true
+  # Log filename (will be created in logs_dir)
+  filename: "anki_import_{date}.log"
+
+# Import settings
+import:
+  # Batch size for adding cards to Anki
+  batch_size: 100
+  # Delay between batches (seconds) to avoid overwhelming AnkiConnect
+  batch_delay: 1
+  # Validate CSV before import
+  validate_before_import: true
